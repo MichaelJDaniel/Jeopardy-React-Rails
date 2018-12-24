@@ -1,4 +1,4 @@
-class Api::CatagorysController < ApplicationController
+class Api::CatagoriesController < ApplicationController
   before_action :set_catagory, only: [:show, :update, :destroy]
   def index
     render json: Catagory.all
