@@ -21,7 +21,7 @@ export const addCatagory = (catagory) => {
 
 export const updateCatagory = (catagory) => {
   return (dispatch) => {
-    axios.put(`/api/catagories/{$catagory.id}`, {catagory} )
+    axios.put(`/api/catagories/${$catagory.id}`, {catagory} )
       .then( res => dispatch({ type: UPDATE_CATAGORY, app: res.data }))
   }
 }

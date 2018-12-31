@@ -8,6 +8,6 @@ class Catagory extends React.Component {
   }
 
   catagory = () => {
-    return this.props.catagories
-  }
-}
+    return this.props.catagories.map( catagory => 
+
+    
